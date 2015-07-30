@@ -1,0 +1,7 @@
+[user]
+	name = Matt Everson
+	email = meverson@tenable.com
+[push]
+	default = current
+[credential]
+	helper = cache --timeout=3600
