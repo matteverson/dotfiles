@@ -29,7 +29,6 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'git' \
   'ssh' \
-  'pacman' \
   'editor' \
   'history' \
   'history-substring-search' \
@@ -77,13 +76,6 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Set the search globbing flags.
 # zstyle ':prezto:module:history-substring-search' globbing-flags ''
-
-#
-# Pacman
-#
-
-# Set the Pacman frontend.
-zstyle ':prezto:module:pacman' frontend 'yaourt'
 
 #
 # Prompt
