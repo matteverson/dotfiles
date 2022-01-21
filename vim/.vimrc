@@ -60,6 +60,8 @@
 
 " }
 
+let g:session_autosave="no"
+
 " Use before config if available {
     if filereadable(expand("~/.vimrc.before"))
         source ~/.vimrc.before
