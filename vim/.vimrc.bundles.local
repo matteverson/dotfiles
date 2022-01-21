@@ -1,4 +1,3 @@
-Bundle 'tenable/vim-nasl'
 Bundle 'xolox/vim-session'
 Bundle 'xolox/vim-misc'
 Bundle 'mustache/vim-mustache-handlebars'
