@@ -12,7 +12,3 @@ done
 for rcfile in "${ZDOTDIR:-$HOME}"/git/dotfiles/tmux/.*; do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/${rcfile:t}"
 done
-
-for rcfile in "${ZDOTDIR:-$HOME}"/git/dotfiles/vim/.*; do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/${rcfile:t}"
-done
