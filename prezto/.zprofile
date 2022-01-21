@@ -45,8 +45,6 @@ typeset -gU cdpath fpath mailpath path
 path=(
   /usr/local/{bin,sbin}
   ~/git/git-hooks/
-  ~/git/tools/flatline/
-  $(ruby -e 'puts Gem.user_dir')/bin
   $path
 )
 

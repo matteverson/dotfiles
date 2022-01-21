@@ -7,8 +7,6 @@ set shell=$SHELL
 au VimEnter * AirlineToggle
 au VimEnter * AirlineToggle
 
-map <C-f> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
-
 " Map ESC to clear search highlighting
 nnoremap <silent> <esc> :noh<cr><esc>
 

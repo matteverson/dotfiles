@@ -16,5 +16,3 @@ done
 for rcfile in "${ZDOTDIR:-$HOME}"/git/dotfiles/vim/.*; do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/${rcfile:t}"
 done
-
-#curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh

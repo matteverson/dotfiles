@@ -4,4 +4,4 @@
 [push]
 	default = current
 [credential]
-	helper = cache --timeout=3600
+	helper = "!f() { /home/vscode/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/node /tmp/vscode-remote-containers-7c38c1c1943d8f46bf34a90362fdaaf7424ed804.js $*; }; f"
