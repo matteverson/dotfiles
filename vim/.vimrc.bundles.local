@@ -1,4 +1,0 @@
-Bundle 'xolox/vim-session'
-Bundle 'xolox/vim-misc'
-Bundle 'mustache/vim-mustache-handlebars'
-Plugin 'christoomey/vim-tmux-navigator'
