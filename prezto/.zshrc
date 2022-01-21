@@ -12,8 +12,6 @@ fi
 
 # Customize to your needs...
 gfind () {git log --all --grep=$@}
-alias n5='sudo \ln -fs /opt/nessus/bin/nasl501 /opt/nessus/bin/nasl'
-alias n6='sudo \ln -fs /opt/nessus/bin/nasl690 /opt/nessus/bin/nasl'
 alias jekyll='docker run --rm -v "$PWD:/source" -p 4000:4000 jekyll'
 alias gitclean='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
 autoload -U zmv
